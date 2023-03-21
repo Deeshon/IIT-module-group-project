@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/style-register.css">
+    <script src="/static/register-script.js" defer></script>
     <title>Register Page</title>
 </head>
 <body>
@@ -16,13 +17,13 @@
             <h1>REGISTER</h1>
         </div>
         <div class="form-container">
-            <form>
-                <input type="text" name="name" id="name" placeholder="Full Name">
-                <input type="email" name="email" id="email" placeholder="Email">
-                <input type="text" name="phone" id="phone" placeholder="Phone">
-                <input type="password" name="password" id="password" placeholder="Password">
-                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
-                <input type="submit" value="Register">
+            <form action="/register" method="post">
+                <input type="text" name="name" id="name" placeholder="Full Name" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="text" name="phone" id="phone" placeholder="Phone" required>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required>
+                <input type="submit" value="Register" id="register">
                 <input type="submit" value="Have an Account? Sign in">
             </form>
         </div>
