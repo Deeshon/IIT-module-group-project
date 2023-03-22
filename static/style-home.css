@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    background: #420033;
+    width: 100%;
+    height: 18%;
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50%;
+}
+
+.options button {
+    width: 150px;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.options button:hover {
+    cursor: pointer;
+    border: 1px solid black ;
+}
+
+span {
+    font-size: 20px;
+    color: white;
+
+}
+
+
+.main-container {
+    height: 82%;
+    display: flex;
+}
+
+.horizental-navbar {
+    background: #F8C8DC;
+    height: 100px;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.image {
+    background-color: black;
+    width: 161px;
+    height: 154px;
+    margin-top: 20px;
+    background: url(/static/OIP-removebg-preview\ \(3\)\ 1.png);
+}
+
+.username {
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.selections, .categories {
+    display: flex; 
+    flex-direction: column; 
+    width: 200px; 
+    margin-top: 15px;
+}
+
+a {
+    all: unset;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.categories div, a {
+    padding: 10px;
+    padding: 10px;
+    color: #6B90F2;
+    font-weight: 500;
+}
+
+/* .vl {
+    background-color: black;
+    height: 100%;
+    width: 1.2px;
+    margin-left: 98%;
+    position: fixed;
+} */
+
+
+.content-container {
+    background: #F8C8DC;
+    width: 84.8%;
+    margin-left: 0.2%;
+    height: 100%;
+}
+
+
+
+
