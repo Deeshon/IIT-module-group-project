@@ -4,37 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commiunity Froum</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Commiunity Forum</title>
+    <link rel="stylesheet" href="/static/style-login.css">
 </head>
 <body>
-    <div class="signIn">
-        <h1> Welcome Back !</h1>
-    <h2> Please Enter your details !!</h2>
-    <div class="form">
-        <h1>Log in</h1>
-        <form action="#" id="logIn">
-        <label for="Email"> Email</label>
-        <input type="email" name="email" placeholder="Enter your email here" required />
-        
-        
-        <label for="password" >Password </label>
-        <input type="password" name="password" placeholder="password" required>
-        
-        <label for="remember me">
-            <input type="checkbox" value="">
-            Remember me  
-        </label>
-        
-        <a href="#">forgot password?</a>
-
-        <button class="btn"> sign In</button>
-
-    </form>
-    <a href="/register"> Not registered? Click here to register </a>
-
-
+    <div>
+        <img src="/static/login-img.jpg" id="bg">
     </div>
+    <div class="main-container">
+        <div class="title">
+            <h1> WELCOME BACK!</h1>
+            <h2> Please Enter your details here</h2>
+        </div>
+        <div class="form-container">
+            <div style="text-align: center; margin-top: -40px;">
+                <h1>LOGIN</h1>
+            </div>
+            <form action="/login" method="post">
+                <input type="text" name="email" placeholder="Email" id="email" required />                
+                <input type="password" name="password" placeholder="Password" id="password" required> 
+                <label for="remember me">
+                    <input type="checkbox">
+                    <span style="font-size: 15px;">Remember me</span>
+                    <a href="#" id="forgot"><span style="font-size: 15px; margin-left: 50px;">forgot password?</span></a> 
+                </label>      
+                <input type="submit" value="Sign In">
+                <button><a href="/register">Register now</a></button>
+            </form>
+        </div>
+    
     </div>
     
     
