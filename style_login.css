@@ -11,6 +11,7 @@
 
 
 .main-container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 35%;
     width: 500px;
     height: 700px;
@@ -33,7 +34,7 @@
 }
 
 .form-container {
-    background: linear-gradient(180deg, #E7D4D4 22.4%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    background: linear-gradient(180deg, rgba(188, 36, 36, 0) 0%, rgba(195, 20, 83, 0.2) 73.96%), #FFF3F3;
     padding: 30px;
     width: 320px;
     height: 370px;
